@@ -11,6 +11,7 @@ header {
     margin: 0 0 5% 0;
     background-color: #000;
     color: #fff;
+    
 }
 
 header h1 {
@@ -27,6 +28,8 @@ header h2 {
     text-align: center;
     font-size: 4vw;
     padding: 5% 0;
+    border-top: 1px solid  #6C63FF;
+}
 }
 
 main {
@@ -46,6 +49,7 @@ main h2 {
     text-align: center;
     font-size: 4vw;
     padding: 5% 0;
+    margin-top: 5%;
 }
 
 main p {
@@ -61,14 +65,15 @@ main li {
     margin: 0 10%;
 }
 
+
 .liens-rapides a {
-    margin: 5%;
-    padding: 10%;
-    width: 20%;
+    margin: 15%;
+
+
 }
 
 .liens-rapides img {
-    width: 20%;
+    width: 15%;
 }
 
 footer {
@@ -76,8 +81,9 @@ footer {
     text-align: center;
     margin: 5% 0 0 0;
     padding: 5% 0;
-    border-top: 2px solid #000;
     background-color: #000;
     color: #fff;
     font-size: 3vw;
+    text-decoration: underline;
+    text-underline-offset: 0.5rem;
 }
